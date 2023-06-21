@@ -1,4 +1,4 @@
-module github.com/mozillazg/go-cos
+module github.com/xld4coding/go-cos
 
 require (
 	github.com/google/go-querystring v1.0.0
