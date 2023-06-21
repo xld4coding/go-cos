@@ -29,7 +29,7 @@ const (
 
 var bucketURLTemplate = template.Must(
 	template.New("bucketURLFormat").Parse(
-		"{{.Scheme}}://{{.BucketName}}-{{.AppID}}.cos.{{.Region}}csyun001.ccbcos.com",
+		"{{.Scheme}}://{{.BucketName}}-{{.AppID}}.cos.{{.Region}}.csyun001.ccbcos.com",
 	),
 )
 
