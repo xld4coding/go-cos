@@ -65,7 +65,7 @@ func NewBaseURL(bucketURL string) (u *BaseURL, err error) {
 //   Region: 区域代码，详见 https://cloud.tencent.com/document/product/436/6224
 //   secure: 是否使用 https
 func NewBucketURL(bucketName, appID, region string, secure bool) *url.URL {
-	scheme := "https"
+	scheme := "http"
 	if !secure {
 		scheme = "http"
 	}
